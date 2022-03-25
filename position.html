@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positions</title>
+    <style>
+        section{
+            background-color:rgb(226, 226, 53) ;   
+            height: 770px;
+            overflow-x:hidden ;
+        }
+        img{
+            border:1px solid black;
+            padding: 20px;
+            width: 400px;
+            height: 300px;
+        }
+        .one{
+            position:absolute;
+            top: 40%;
+            right: 37%;
+        }
+        .two{
+            position: relative;
+            top:30px;
+            left:1100px;
+        }
+        .three{
+            position: relative;
+            top: 70px;
+        }
+        .four{
+            position: fixed;
+            top: 40px;
+        }
+        .five{
+            position:relative;
+            left:1100px;
+            bottom:290px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="one"><img src="./multimedia/hyd1.jpg"/></div>
+        <div class="two"><img src="./multimedia/hyd2.jpg"/></div>
+        <div class="three"><img src="./multimedia/hyd3.jpg"/></div>
+        <div class="four"><img src="./multimedia/hyd4.jpg"/></div>
+        <div class="five"><img src="./multimedia/hyd5.jpg"/></div>
+    </section>
+</body>
+</html>

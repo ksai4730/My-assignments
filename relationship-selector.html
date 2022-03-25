@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head> <title>relationship selectors</title>
+        <style>
+            ol li{
+                color: blue;
+            }
+            ul>li{
+                color: red;
+            }
+            ul li{
+                background-color:rgb(243, 243, 193);
+            }
+            .container > .tall{
+                color: orange;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            
+            <li> Top mobile brands in India
+                <ol>
+                    <li>Apple</li>
+                    <li>Samsung</li>
+                    <li>Xiaomi</li>
+                    <li>One Plus</li>
+                    <li>Vivo</li>
+                    <li>Oppo</li>
+                    <li>Motorola</li>
+                    <li>LG</li>
+                </ol>
+            </li> <br/><br/>
+            <li> Top car brands in India
+                <ol>
+                    <li>Tata</li>
+                    <li>Maruthi</li>
+                    <li>Hyundai</li>
+                    <li>Kia</li>
+                    <li>Mahindra</li>
+                    <li>Toyota</li>
+                    <li>Honda</li>
+                    <li>Renault</li>
+                </ol>
+            </li>
+        </ul>
+        <section class="container">
+            <div class="sma"><h1>smallest</h1></div>
+            <div class="tall"><h1>tallest</h1></div>
+            <div class="ave"><h1>average</h1></div>
+        </section>
+    </body>
+</html>

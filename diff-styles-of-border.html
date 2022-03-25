@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head> <title>diff styles of borders</title>
+        <style>
+            body{
+                background-color:rgb(250, 250, 210)
+            }
+            h1{
+                text-align: center; padding: 30px; margin: 30px;
+            }
+            div{
+                height: 150px;    
+            }
+            .sol{
+                border-left: 15px blue  solid; background-color: rgb(185, 221, 238); 
+            }
+            .dot{
+                border-top: 15px skyblue  dotted; border-bottom: 15px skyblue  dotted;
+            }
+            .das{
+                border-right: 15px skyblue  dashed;border-bottom: 15px skyblue  dashed;border-left: 15px skyblue  dashed;
+            }
+            
+            .dou{
+                border: 15px skyblue  double; border-width: 10px 20px 30px 40px;
+            }
+            .gro{
+                border: 15px groove; border-color: skyblue blue red green
+            }
+            .rid{
+                border: 15px skyblue  ridge; border-top-right-radius: 70px;
+            }
+            .ins{
+                border: 15px skyblue  inset; border-top-left-radius: 70px; border-bottom-right-radius: 70px;
+            }
+            .out{
+                border: 15px skyblue outset; border-radius: 70px;
+            }
+        </style>
+        <body>
+            <div>
+                <div class="sol"> <h1> I have left sided SOLID border </h1> </div> <br/><br/>
+                <div class="dot"> <h1> I have two sided DOTTED border </h1> </div> <br/><br/>
+                <div class="das"> <h1> I have three sided DASHED border </h1> </div> <br/><br/>
+                <div class="dou"> <h1> I have multiple size DOUBLE border </h1> </div> <br/><br/>
+                <div class="gro"> <h1> I have multiple color GROOVE border </h1> </div> <br/><br/>
+                <div class="rid"> <h1> I have top-right-soft radius RIDGE border </h1> </div> <br/><br/>
+                <div class="ins"> <h1> I have top-left,bottom-right soft INSET border </h1> </div> <br/><br/>
+                <div class="out"> <h1> I have soft OUTSET border </h1> </div> <br/><br/>
+            </div>
+        </body>
+    </head>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid</title>
+        <style>
+            html{
+                background-color:cadetblue;
+            }
+            section,div{
+                
+                padding: 20px;
+                margin-bottom: 10px;
+                display: grid;
+                justify-content: center;
+                grid-template-rows: 42px;
+                grid-template-columns:  4% 4% 4% 4% 4% 4% 4% 4% 4% 4%;
+                column-gap: 8px;
+            }
+            main,div{
+                
+                padding: 20px;
+                margin-bottom: 10px;
+                display: grid;
+                justify-content: center;
+                grid-template-rows: 42px;
+                grid-template-columns:4% 4% 4% 4% 4% 4% 4% 4% 4%;
+                column-gap: 8px;
+            }
+            footer,div{
+                
+                padding: 20px;
+                margin-bottom: 10px;
+                display: grid;
+                justify-content: center;
+                grid-template-rows: 42px;
+                grid-template-columns:4% 4% 4% 4% 4% 4% 4%;
+                column-gap: 8px;
+            }   
+            .lineone,.linetwo,.linethree{
+                border:10px outset blue;
+                background-color: gray;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <section class="one">
+            <div class="lineone">Q</div>
+            <div class="lineone">W</div>
+            <div class="lineone">E</div>
+            <div class="lineone">R</div>
+            <div class="lineone">T</div>
+            <div class="lineone">Y</div>
+            <div class="lineone">U</div>
+            <div class="lineone">I</div>
+            <div class="lineone">O</div>
+            <div class="lineone">P</div> 
+        </section>
+
+
+        <main class="two">
+            <div class="linetwo">A</div>
+            <div class="linetwo">S</div>
+            <div class="linetwo">D</div>
+            <div class="linetwo">F</div>
+            <div class="linetwo">G</div>
+            <div class="linetwo">H</div>
+            <div class="linetwo">J</div>
+            <div class="linetwo">K</div>
+            <div class="linetwo">L</div>
+        </main>
+
+
+        <footer class="three">
+            <div class="linethree">Z</div>
+            <div class="linethree">X</div>
+            <div class="linethree">C</div>
+            <div class="linethree">V</div>
+            <div class="linethree">B</div>
+            <div class="linethree">N</div>
+            <div class="linethree">M</div>
+        </footer>
+    </body>
+</html>
+<div class="empty">.</div>

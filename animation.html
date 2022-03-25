@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        body{
+            height: 789px;
+            display: grid;
+            place-items: center;
+        }
+        div:hover{
+            width: 100px;
+            height: 100px;
+            border: aqua;
+            padding: 10px;
+            border-radius: 50%;
+            background-color: aqua;
+
+            animation-name: rolling;
+            animation-delay: 1s;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            
+
+            
+        }
+        @keyframes rolling{
+            0%{
+                transform:rotate(0deg) scale(0);
+            }
+            20%{
+                transform:rotate(22.5deg) scale(1);
+            } 
+            40%{
+                transform:rotate(45deg) scale(2);
+            } 
+            60%{
+                transform:rotate(90deg) scale(3);
+            } 
+            80%{
+                transform:rotate(180deg) scale(4);
+            }
+            100%{
+                transform:rotate(360deg) scale(5);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>sai</div>
+</body>
+</html>

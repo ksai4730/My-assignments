@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            z-index: 1;
+            height: 60px;
+            width: 100%;
+            border:3px solid brown;
+            border-radius: 10px;
+            background: rgb(235, 158, 129);
+            position: fixed;
+            top: 0; left: 0;
+        }
+        .main{
+            position: static;
+            
+        }
+        
+        .one{
+            z-index: 2;
+            height: 600px;
+            width: 380px;
+            border:2px solid blue;
+            border-radius: 20px;
+            margin-top:20px ;
+            position: relative;
+            left: 0px;
+            top:75px;
+        }
+        .two{
+            z-index: 3;
+            height: 600px;
+            width: 380px;
+            border:2px solid blue;
+            margin-top:20px ;
+            border-radius: 20px;
+            position: relative;
+            left: 390px;
+            bottom: 550px;
+        }
+        .three{
+            z-index: 4;
+            height: 600px;
+            width: 380px;
+            border:2px solid blue;
+            margin-top:20px ;
+            border-radius: 20px;
+            position: absolute;
+            bottom: 93px;
+            left: 790px;
+        }
+        .four{
+            z-index: 5;
+            height: 600px;
+            width: 380px;
+            border:2px solid blue;
+            margin-top:20px ;
+            border-radius: 20px;
+            position: absolute;
+            bottom: 93px;
+            right: 17px;
+        }
+        button{
+            padding: 12px 25px;
+            background: coral;
+            color: white;
+            cursor:pointer;
+            border-radius: 10px;
+            font-size: 30px;
+            position:sticky;
+            z-index: 1;
+            top: 2px; right: 2px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div><button>login/signup</button></div>
+    </div>
+    <div class="main">
+        <div class="one"><img src="./multimedia/ajio1.webp"/></div>
+        <div class="two"><img src="./multimedia/ajio2.jpg"/></div>                                                                 
+        <div class="three"><img src="./multimedia/ajio3.webp"/></div>
+        <div class="four"><img src="./multimedia/ajio4.webp"/></div>
+    </div>
+</body>
+</html>
